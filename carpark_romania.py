@@ -38,7 +38,7 @@ def read_file(file_name):
 
 def top_counties(cars):
     # top 5 counties by number of cars
-    print('Number of cars in 2017 by county:\n#################################')
+    print('Number of cars in 2017 by county:\n{}'.format('#'.rjust(33, '#')))
     counties = Counter()
     for row in cars:
         counties[row['JUDET']] += int(row['TOTAL_VEHICULE'])
@@ -62,7 +62,7 @@ def county_and_brand(cars, county):
     print('Top 5 car brands in {0} county:\n{1}'.format(county, '#'.rjust(34, '#')))
     for brand, count in by_brand[county].most_common(5):
         # percentage, a certain brand (in the specified county) compared to the same brand in the whole country
-        percentage = (int(by_brand[county][brand])/int(total[brand]))*100
+        percentage = (int(by_brand[county][brand]) / int(total[brand])) * 100
         print(f'{brand}: {count}, {percentage:.2f}%')
     print()
 
