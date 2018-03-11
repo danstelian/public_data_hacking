@@ -1,0 +1,15 @@
+Number of cars in 2017 by county:
+#################################
+BUCURESTI: 1057932
+TIMIS: 240368
+CLUJ: 234143
+CONSTANTA: 224767
+PRAHOVA: 216308
+
+Top 5 car brands in BRASOV county:
+##################################
+DACIA: 33836, 2.54%
+VOLKSWAGEN: 33508, 3.38%
+OPEL: 19311, 2.84%
+FORD: 14999, 3.36%
+RENAULT: 10535, 3.28%
