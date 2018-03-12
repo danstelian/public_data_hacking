@@ -1,6 +1,16 @@
 # Readme for carpark_romania
 - public_data_hacking/carpark_romania.py
 
+## Module doc
+	Total number of registered automobiles in Romania in 2017
+	(parcauto2017.csv)
+	1. Top 5 counties by number of registered cars
+	2. Top 5 car brands in a user defined county
+	(also the percentages in ralation to the whole country)
+
+	Mostly an excuse to play with Python's list comprehensions,
+	Counters, default(dict) and csv files
+
 ## Install virtualenv
 	sudo apt-get install virtualenv
 
